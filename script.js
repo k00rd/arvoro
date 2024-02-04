@@ -1,0 +1,1 @@
+var currentTextIndex=0,texts=["Este é o dia que o Senhor fez; nele nos alegraremos e exultaremos. Salmos meio dia prás 4","Oi meu amor, espero poder comemorar essa data trilhões de vezes com você","Peida fofo nengue rs"];function nextText(){var e=document.getElementById("text1");currentTextIndex=(currentTextIndex+1)%texts.length,e.innerHTML="<b>"+texts[currentTextIndex]+"</b>"}
